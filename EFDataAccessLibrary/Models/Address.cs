@@ -21,7 +21,7 @@ namespace EFDataAccessLibrary.Models
 
         [Required]
         [MaxLength(10)] // 12312-1241
-        [Column(TypeName = "varchar(10")]
+        [Column(TypeName = "varchar(10)")]
         public string ZipCode { get; set; }
 
     }
